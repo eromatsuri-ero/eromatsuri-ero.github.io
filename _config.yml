@@ -5,16 +5,25 @@ baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 
+locale: "ja"
+minimal_mistakes_skin: "default"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
 
-minimal_mistakes_skin: "default"
-locale: "ja"
-
 permalink: /:categories/:title/
+
+author:
+  name: "eromatsuri"
+  bio: "有機栽培エンジニア"
+  location: "Japan"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/eromatsuri-ero"
 
 collections:
   pages:
@@ -28,4 +37,10 @@ defaults:
       layout: single
       read_time: true
       share: true
-      related: true
+      related: false
+
+include:
+  - _includes
+
+footer:
+  links: []
