@@ -5,8 +5,8 @@ baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 
-locale: "ja"
-minimal_mistakes_skin: "default"
+locale: ja
+minimal_mistakes_skin: default
 
 plugins:
   - jekyll-feed
@@ -25,22 +25,16 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/eromatsuri-ero"
 
-collections:
-  pages:
-    output: true
-
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: single
+      author_profile: true
       read_time: true
       share: true
       related: false
-
-include:
-  - _includes
 
 footer:
   links: []
