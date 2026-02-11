@@ -6,6 +6,7 @@ baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
 
 locale: ja
+timezone: Asia/Tokyo
 minimal_mistakes_skin: default
 
 plugins:
