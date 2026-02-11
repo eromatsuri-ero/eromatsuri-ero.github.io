@@ -1,4 +1,4 @@
-title: [タイトル]
+title: タイトル考え中
 description: 技術メモと日記のブログ
 url: "https://eromatsuri-ero.github.io"
 baseurl: ""
@@ -35,6 +35,10 @@ kramdown:
 collections:
   pages:
     output: true
+
+tag_archive:
+  type: liquid
+  path: /tags/
 
 defaults:
   - scope:
