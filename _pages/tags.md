@@ -2,5 +2,5 @@
 layout: tags
 title: "タグ一覧"
 permalink: /tags/
-author_profile: false
+author_profile: true
 ---
