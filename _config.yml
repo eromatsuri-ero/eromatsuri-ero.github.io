@@ -14,8 +14,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
 
-permalink: /:categories/:title/
-
 author:
   name: "eromatsuri"
   bio: "有機栽培エンジニア"
