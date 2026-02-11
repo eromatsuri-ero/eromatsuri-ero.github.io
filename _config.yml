@@ -1,4 +1,4 @@
-title: eromatsuri's Tech Blog
+title: [タイトル]
 description: 技術メモと日記のブログ
 url: "https://eromatsuri-ero.github.io"
 baseurl: ""
@@ -24,6 +24,17 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/eromatsuri-ero"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+collections:
+  pages:
+    output: true
 
 defaults:
   - scope:
