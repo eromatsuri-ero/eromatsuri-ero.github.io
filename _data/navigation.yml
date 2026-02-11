@@ -1,0 +1,5 @@
+main:
+  - title: "ホーム"
+    url: /
+  - title: "タグ"
+    url: /tags/
